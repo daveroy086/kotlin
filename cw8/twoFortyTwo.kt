@@ -1,9 +1,9 @@
 // twoFortyTwo.kt
 
-fun twoFortyTwo(games: List<String>): Int {
+fun twoFortyTwo(scores: List<String>): Int {
 
         var result: Int = 0
-        for(score in games) {
+        for(score in scores) {
             when{
                 score[0] > score[2] -> result += 3
                 score[0] == score[2] ->     result++
